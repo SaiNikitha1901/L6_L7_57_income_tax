@@ -35,3 +35,14 @@ Commit these three files in this `LAB7` folder:
 3. `SRN_NAME_LAB7.pdf`: screenshots SS1 to SS4 and your answers to the three reflection questions in the handout.
 
 Be ready to explain the bugs you found and how you fixed them. You may be called on to present.
+
+## Submission: PES2UG24AM142, Sai Nikitha Perumalla
+
+| File | Contents |
+|------|----------|
+| `income_tax_parser.py` | Fixed module: all three functions accept any input and return `None` for invalid input instead of crashing |
+| `test_income_tax_parser.py` | Hypothesis tests (`st.text() \| st.none()`, 500 examples each): no crash + valid result property |
+| `PES2UG24AM142_SaiNikitha_LAB7.pdf` | SS1 to SS4, bug list with fixes, reflection |
+| `screenshots/` | `ss1_buggy_run`, `ss2_tests_fail_*` (buggy module), `ss3_fixed_run`, `ss4_tests_pass` (fixed module) |
+
+Result: 3 failed (7 distinct Hypothesis failures) on the original module, 3 passed on the fixed module.
